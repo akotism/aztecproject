@@ -1,0 +1,97 @@
+
+.block{
+    background-blend-mode: hard-light;
+    border-radius: 80px;
+    display: inline-block;
+    background-color: #ffffff4e;
+    box-shadow: 0 0 5px 10px #ffffff4b;-shadow: inset 0px 0px 40px 40px rgba(255, 255, 255, 0.344);
+    padding-bottom: 25px;
+    opacity: 0.9;
+}
+
+
+body {
+    background-image: url(aztec.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+
+
+
+.buttons button{
+background-color: rgb(230, 234, 249);
+display: inline-block;
+margin: auto;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 30px;
+font-weight: bolder;
+height: 100px;
+width: 230px;
+margin-bottom: 10px;
+border-radius: 30px;
+border-style: hidden;
+transition: 0.5s;
+color: rgb(0, 0, 0);
+
+font-variant: small-caps;
+cursor: pointer;
+}
+
+.origin-button:hover {
+    opacity: 0.8;
+    
+}
+
+.origin-button:active {
+    opacity: 0.5;
+}
+
+.religion-button:hover {
+    opacity: 0.8;
+}
+
+.religion-button:active {
+    opacity: 0.5;
+}
+
+.agriculture-button:hover {
+    opacity: 0.8;
+}
+
+.agriculture-button:active {
+    opacity: 0.5;
+}
+
+.society-button:active {
+    opacity: 0.8;
+}
+
+.society-button:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
